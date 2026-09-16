@@ -1,5 +1,6 @@
 # AgroMoreira — Sistema de Gestión Agrícola con Inteligencia Artificial
 
+Repositorio oficial: https://github.com/gleiston-guerrero/ACERS_Sistema_de_Gestion_Agricola_con_IA
 Sistema de Gestión Agrícola con Inteligencia Artificial desarrollado para **Agrícola Moreira**, orientado a la administración y monitoreo de cultivos de **cacao** y **plátano verde**.
 
 Este proyecto fue desarrollado como parte del **Proyecto Integrador de la asignatura Ingeniería de Requisitos (ISR-401)** de la **Universidad Técnica Estatal de Quevedo (UTEQ)**.

@@ -1,4 +1,4 @@
-# Retrospectiva del equipo ACERS — Examen suspenso
+# Retrospectiva del equipo ACERS - Examen suspenso
 
 **Fecha:** 15 de septiembre de 2026
 **Integrantes:** Roselyn Sánchez, Danela Arteaga, Kamila Calle, María Escudero, Jeanpierre Robinson
@@ -6,9 +6,9 @@
 ## Qué hicimos entre el 13 y el 15 de septiembre de 2026
 
 ### Kamila Calle (analista de requerimientos)
-- Agregó flujos alternativos y excepciones a los 14 casos de uso del ERS (CU-01 a CU-14), documentando 45 flujos con 52 menciones, 51 precondiciones y 46 poscondiciones.
+- Agregó flujos alternativos y excepciones a los 14 casos de uso del ERS (CU-01 a CU-14), documentando 44 flujos con 52 menciones, 51 precondiciones y 46 poscondiciones.
 - Actualizó la matriz de trazabilidad con columna ID-Flujo para trazar cada flujo alternativo.
-- Redactó los 6 RNF del componente inteligente (RNF-12 a RNF-17) con referencia a caso de uso y flujo.
+- Redactó los 6 RNF del componente inteligente (RNF-16 a RNF-21) con referencia a caso de uso y flujo.
 - Corrigió todas las menciones de "registro previo" en ERS, protocolo, OSF, CHANGELOG y manuscrito.
 - Recompiló el PDF del ERS (pasó de 37 a 44 páginas).
 

@@ -1,6 +1,6 @@
 # Retrospectiva del equipo ACERS - Examen suspenso
 
-**Fecha:** 15 de septiembre de 2026
+**Fecha:** 15 al 16 de septiembre de 2026
 **Integrantes:** Roselyn Sánchez, Danela Arteaga, Kamila Calle, María Escudero, Jeanpierre Robinson
 
 ## Qué hicimos entre el 13 y el 15 de septiembre de 2026
@@ -12,6 +12,7 @@
 - Corrigió todas las menciones de "registro previo" en ERS, protocolo, OSF, CHANGELOG y manuscrito.
 - Recompiló el PDF del ERS (pasó de 37 a 44 páginas).
 - Reejecutó `python 07_Datos/scripts/run_all.py` sobre un clon limpio (§11-13): las tablas y figuras regeneradas (chi2=16.056, p=0.0001, diferencia de cobertura 0.692, IC95% [0.5, 0.846]) coinciden exactamente con las del ERS y el manuscrito; regeneró `checksums_datos.sha256` y `checksums.sha256` en consecuencia.
+- Creó la etiqueta anotada `v2.3-final`.
 
 ### María Escudero (investigación experimental)
 - Corrigió la afirmación "orden correcto" en `osf_registration.md`.
@@ -24,13 +25,12 @@
 ### Roselyn Sánchez (gestión del repositorio)
 - Actualizó `CITATION.cff` y `CHANGELOG.md` con la entrada v2.3-final.
 - Regeneró checksums tras los cambios del ERS.
-- Creó la etiqueta anotada `v2.3-final`.
 
 ### Danela Arteaga (diseño y modelado UML)
 - Sin cambios asignados en esta ronda (modelado UML cerrado en 100%).
 
 ### Jeanpierre Robinson (líder)
-- Sin cambios asignados en esta ronda (liderazgo y entrevistas cerrados).
+- Subió evidencia de autoría verificada de sus commits reales (`f54a568`, `8422c88`, `f8ae68a`), corrigiendo capturas previas no válidas, entre el 15 y 16 de septiembre.
 
 ## Qué aprendimos
 

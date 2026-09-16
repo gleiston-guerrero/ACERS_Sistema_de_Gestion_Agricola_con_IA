@@ -1241,7 +1241,7 @@ Los RF-09, RF-10, RF-31 y RF-33 introducen un componente de IA (alerta de plagas
 \item \textbf{Umbral:} $\geq$80\% de exactitud y $\geq$75\% de sensibilidad en el conjunto de validacion, antes de habilitar el modelo en campo.
 \item \textbf{Metodo de verificacion:} evaluacion del modelo sobre un conjunto de prueba etiquetado, ejecutada por script versionado, con matriz de confusion documentada en el repositorio.
 \item \textbf{Responsable:} equipo tecnico (especificacion: Danela Arteaga; analisis estadistico: Maria Escudero).
-\item \textbf{Frecuencia:} antes de cada despliegue de una version nueva del modelo, y revision trimestral en produccion.
+\item \textbf{Donde interviene:} CU-06, paso 1 del flujo principal (donde el modelo genera la sugerencia); tambien en la excepcion CU-06.1e cuando se usa diagnostico por imagen (RF-10).
 \end{itemize}
 
 \rf{RNF-17}{Explicabilidad de las recomendaciones de IA}
@@ -1253,7 +1253,7 @@ Los RF-09, RF-10, RF-31 y RF-33 introducen un componente de IA (alerta de plagas
 \item \textbf{Umbral:} 100\% de las alertas deben mostrar al menos un factor explicativo.
 \item \textbf{Metodo de verificacion:} revision de una muestra de alertas generadas en pruebas de aceptacion, confirmando la presencia del campo de explicacion.
 \item \textbf{Responsable:} Danela Arteaga (especificacion); equipo tecnico (implementacion).
-\item \textbf{Frecuencia:} en cada entrega que modifique el motor de alertas.
+\item \textbf{Donde interviene:} CU-06, pasos 1 y 2 del flujo principal (donde se genera la justificacion y se notifica al usuario marcada como sugerencia).
 \end{itemize}
 
 \rf{RNF-18}{Equidad de desempeno entre cultivos}
@@ -1265,7 +1265,7 @@ Los RF-09, RF-10, RF-31 y RF-33 introducen un componente de IA (alerta de plagas
 \item \textbf{Umbral:} diferencia $\leq$10 puntos porcentuales en la tasa de falsos negativos entre ambos cultivos.
 \item \textbf{Metodo de verificacion:} evaluacion separada del modelo por subconjunto (cacao, platano) sobre el conjunto de validacion, con reporte comparativo versionado.
 \item \textbf{Responsable:} equipo tecnico; revision independiente por Maria Escudero (analisis estadistico).
-\item \textbf{Frecuencia:} en cada reentrenamiento del modelo.
+\item \textbf{Donde interviene:} CU-06, paso 1 del flujo principal (la deteccion del modelo, medida por separado para cacao y platano).
 \end{itemize}
 
 \rf{RNF-19}{Supervision humana obligatoria antes de cualquier accion automatica}
@@ -1277,7 +1277,7 @@ Los RF-09, RF-10, RF-31 y RF-33 introducen un componente de IA (alerta de plagas
 \item \textbf{Umbral:} 0 acciones automaticas sin confirmacion humana.
 \item \textbf{Metodo de verificacion:} revision de logs de auditoria y prueba funcional dirigida a intentar forzar una aplicacion automatica.
 \item \textbf{Responsable:} equipo tecnico; verificacion independiente por Kamila Calle (gatekeeper P11).
-\item \textbf{Frecuencia:} en cada entrega, como parte de las pruebas de aceptacion.
+\item \textbf{Donde interviene:} CU-06, pasos 3 y 4 del flujo principal (revision y confirmacion humana); tambien en la excepcion CU-06.3e, donde la alerta queda fuera del conjunto aplicado hasta revision del equipo tecnico (RF-33).
 \end{itemize}
 
 \rf{RNF-20}{Monitoreo continuo del desempeno del modelo en produccion}
@@ -1289,7 +1289,7 @@ Los RF-09, RF-10, RF-31 y RF-33 introducen un componente de IA (alerta de plagas
 \item \textbf{Umbral:} $\geq$90\% de las alertas deben tener retroalimentacion registrada dentro de los 7 dias de emitidas.
 \item \textbf{Metodo de verificacion:} consulta sobre el registro de alertas y su estado, generada por script versionado.
 \item \textbf{Responsable:} Roselyn Sanchez (infraestructura de datos); Danela Arteaga (especificacion).
-\item \textbf{Frecuencia:} reporte mensual mientras el sistema este en operacion.
+\item \textbf{Donde interviene:} CU-06, paso 4 del flujo principal (registro de la decision); tambien en el flujo alternativo CU-06.3a (descarte) y en la excepcion CU-06.3e (desacuerdo formal, RF-33).
 \end{itemize}
 
 \rf{RNF-21}{Clasificacion de riesgo de las recomendaciones de IA}
@@ -1301,7 +1301,7 @@ Los RF-09, RF-10, RF-31 y RF-33 introducen un componente de IA (alerta de plagas
 \item \textbf{Umbral:} 100\% de los tipos de alerta deben tener un nivel de riesgo asignado antes de habilitarse.
 \item \textbf{Metodo de verificacion:} revision de la tabla de configuracion de tipos de alerta, confirmando el campo de nivel de riesgo.
 \item \textbf{Responsable:} Danela Arteaga (especificacion); equipo tecnico (implementacion).
-\item \textbf{Frecuencia:} al definir cada nuevo tipo de alerta.
+\item \textbf{Donde interviene:} CU-06, paso 2 del flujo principal (donde se notifica la alerta al usuario, junto con su nivel de riesgo visible).
 \end{itemize}
 
 

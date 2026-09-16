@@ -193,6 +193,11 @@ AgroMoreira/
 La forma recomendada de citar este repositorio se encuentra en el archivo:  CITATION.cff 
 ---
 
+# Línea base vigente
+
+La versión vigente para evaluación es la etiqueta anotada **`v2.4-cierre`**, publicada sobre la rama `main`. Las etiquetas `v2.0-final` y `v2.3-final` se mantienen en el historial como referencia histórica, pero no deben usarse para la evaluación.
+
+---
 # Integridad del repositorio
 Las huellas digitales SHA-256 de los archivos multimedia y documentos se encuentran en:
 checksums.sha256

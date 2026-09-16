@@ -7,9 +7,9 @@ y este proyecto sigue el versionado semántico donde es aplicable.
 Correcciones exigidas por la guía de cierre del examen suspenso (15/09/2026).
 
 ### Añadido
-- Flujos alternativos y excepciones a los 14 casos de uso del ERS: 45 flujos, 52 menciones, 51 precondiciones, 46 poscondiciones (Kamila Calle).
+- Flujos alternativos y excepciones a los 14 casos de uso del ERS: 44 flujos, 52 menciones, 51 precondiciones, 46 poscondiciones (Kamila Calle).
 - Columna ID-Flujo en la matriz de trazabilidad para trazar cada flujo alternativo (Kamila Calle).
-- 6 RNF del componente inteligente (RNF-12 a RNF-17) con referencia a caso de uso y flujo (Kamila Calle).
+- 6 RNF del componente inteligente (RNF-16 a RNF-21) con referencia a caso de uso y flujo (Kamila Calle).
 - Declaración de registro retrospectivo en amenazas a la validez del manuscrito (María Escudero).
 - Retrospectiva del equipo (`10_Autoria/retrospectiva_equipo.md`) con qué hicimos, quién hizo qué y qué aprendimos.
 - Diccionario de datos convertido a CSV real con separador coma y 22 filas (María Escudero).

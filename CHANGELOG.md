@@ -46,14 +46,9 @@ Etiqueta de línea base: `v2.0-final` (commit `cc8cf4a`)
 - Etiqueta de línea base final anotada, alcanzable desde la rama por defecto y publicada en el repositorio remoto.
 - Depósito del paquete de replicación en Zenodo con DOI persistente `10.5281/zenodo.22307881`, registro del protocolo en OSF (`https://osf.io/7cvhy`), citado en `CITATION.cff` y en el README, conforme a la compuerta I5 de la guía.
 
-### Cambiado
-- <!-- ej. "Requisitos no funcionales ajustados tras la auditoría de calidad de la especificación" -->
-
 ### Corregido
 - Cita cruzada corregida en la sección 6 (`sec6`) del informe final.
-- <!-- ej. "Huérfanos y cadenas rotas de la matriz de trazabilidad cerrados tras la auditoría del repositorio" -->
-- <!-- ej. "Referencias con campos incompletos o identificadores que no resolvían, verificadas una a una" -->
-
+  
 ## [Entrega 3 - 2A] - 2026-07-29
 ### Añadido
 - ERS/SRS completo v1.0 con requisitos funcionales, no funcionales, historias de usuario en formato Connextra y criterios de aceptación en Gherkin.
@@ -63,10 +58,6 @@ Etiqueta de línea base: `v2.0-final` (commit `cc8cf4a`)
 - Protocolo experimental y registro en OSF.
 - Segunda ronda de trabajo de campo: nuevos consentimientos, entrevistas en video/audio, cuestionario ampliado.
 - LICENSE, CITATION.cff, checksums.sha256, .gitignore.
-### Cambiado
-- <!-- ej. "Requisitos funcionales revisados según observaciones docentes de la Entrega 2 (1B)" -->
-### Corregido
-- <!-- ej. "Correcciones al diagrama de clases señaladas en la Entrega 2 (1B)" -->
 
 ## [Entrega 2 - 1B] - 2026-07-01
 ### Añadido

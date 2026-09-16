@@ -5,7 +5,7 @@ Carpeta a cargo de la analista de requerimientos.
 | Archivo | Contenido |
 |---|---|
 | `ERS_SRS_2B_v2.0.tex` | Documento fuente en LaTeX. Compilar con `pdflatex` luego `bibtex` luego `pdflatex` dos veces. |
-| `ERS_SRS_2B_v2.0.pdf` | Documento compilado, 27 paginas. |
+| `ERS_SRS_2B_v2.0.pdf` | Documento compilado, 44 paginas. |
 | `ERS_SRS_2B_v2.0.md` | Version en Markdown del mismo contenido, para lectura rapida. |
 | `referencias.bib` | Bibliografia del ERS, estandares ISO, Amaral et al. 2021 y las fuentes legales. |
 | `Modelo_Legal_LOPDP.md` | Modelo conceptual legal-first con los 26 criterios de cumplimiento en tres bloques normativos. |

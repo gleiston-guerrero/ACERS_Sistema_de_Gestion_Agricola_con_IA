@@ -15,6 +15,7 @@
 
 ### María Escudero (investigación experimental)
 - Corrigió la afirmación "orden correcto" en `osf_registration.md`.
+- Actualizó la URL canonica del repositorio a `gleiston-guerrero` en `CITATION.cff`, `README.md` y `REPOSITORIO_OFICIAL.md` (§1).
 - Agregó la declaración de registro retrospectivo en amenazas a la validez del manuscrito (`manuscrito_final.tex` L187).
 - Regeneró `checksums.sha256` tras los cambios del ERS.
 - Generó las notas de campo de las sesiones de member checking (ENTR-11, ENTR-12, ENTR-14).

@@ -8,7 +8,7 @@
 
 | Elemento | Identificador | Estado |
 |---|---|---|
-| Repositorio GitHub | https://github.com/charito20/ACERS_Sistema_de_Gestion_Agricola_con_IA | Activo |
+| Repositorio GitHub | https://github.com/gleiston-guerrero/ACERS_Sistema_de_Gestion_Agricola_con_IA | Activo |
 | DOI Zenodo | 10.5281/zenodo.22307881 | Publicado |
 | OSF | https://osf.io/7cvhy | Activo, público |
 | SWHID | `swh:1:snp:465aaeba1b5d8a07e1c7bca122fc8277812e825a` | Archivado (2026-09-04) |

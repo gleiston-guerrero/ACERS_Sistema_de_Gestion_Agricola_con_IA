@@ -14,7 +14,7 @@ Correcciones exigidas por la guía de cierre del examen suspenso (15/09/2026).
 - Retrospectiva del equipo (`10_Autoria/retrospectiva_equipo.md`) con qué hicimos, quién hizo qué y qué aprendimos.
 - Diccionario de datos convertido a CSV real con separador coma y 22 filas (María Escudero).
 - Manuscrito recompilado con la declaración de registro retrospectivo (13 páginas, 408745 bytes).
-
+- Etiqueta anotada de cierre `v2.4-cierre` creada sobre el commit final del examen suspenso, reemplazando a `v2.4-suspenso` como versión vigente para evaluación.
 ### Corregido
 - Todas las menciones de "registro previo" eliminadas del ERS, protocolo, OSF y CHANGELOG (Kamila Calle).
 - `osf_registration.md`: afirmación "orden correcto" corregida (María Escudero).

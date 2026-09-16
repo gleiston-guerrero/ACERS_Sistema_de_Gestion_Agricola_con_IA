@@ -26,6 +26,6 @@
     { "name": "Guerrero Ulloa, Gleiston Ciceron", "affiliation": "Universidad Tecnica Estatal de Quevedo", "orcid": "0000-0001-5990-2357" }
   ],
   "related_identifiers": [
-    { "relation": "isSupplementTo", "identifier": "https://github.com/charito20/ACERS_Sistema_de_Gestion_Agricola_con_IA", "resource_type": "software" }
+  { "relation": "isSupplementTo", "identifier": "https://github.com/gleiston-guerrero/ACERS_Sistema_de_Gestion_Agricola_con_IA", "resource_type": "software" }
   ]
 }

@@ -11,6 +11,7 @@
 - Redactó los 6 RNF del componente inteligente (RNF-16 a RNF-21) con referencia a caso de uso y flujo.
 - Corrigió todas las menciones de "registro previo" en ERS, protocolo, OSF, CHANGELOG y manuscrito.
 - Recompiló el PDF del ERS (pasó de 37 a 44 páginas).
+- Reejecutó `python 07_Datos/scripts/run_all.py` sobre un clon limpio (§11-13): las tablas y figuras regeneradas (chi2=16.056, p=0.0001, diferencia de cobertura 0.692, IC95% [0.5, 0.846]) coinciden exactamente con las del ERS y el manuscrito; regeneró `checksums_datos.sha256` y `checksums.sha256` en consecuencia.
 
 ### María Escudero (investigación experimental)
 - Corrigió la afirmación "orden correcto" en `osf_registration.md`.

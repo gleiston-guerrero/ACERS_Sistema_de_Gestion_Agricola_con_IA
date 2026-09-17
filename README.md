@@ -195,7 +195,7 @@ La forma recomendada de citar este repositorio se encuentra en el archivo:  CITA
 
 # Línea base vigente
 
-La versión vigente para evaluación es la etiqueta anotada **`v2.4-cierre`**, publicada sobre la rama `main`. Las etiquetas `v2.0-final` y `v2.3-final` se mantienen en el historial como referencia histórica, pero no deben usarse para la evaluación.
+La versión vigente para evaluación es la etiqueta anotada **`v2.4-cierre`**, publicada sobre la rama `main`. Las etiquetas `v2.0-final`, `v2.3-final` y `v2.4-suspenso` se mantienen en el historial como referencia histórica, pero no deben usarse para la evaluación.
 
 ---
 # Integridad del repositorio

@@ -3,7 +3,7 @@ Todos los cambios notables de este proyecto se documentan en este archivo.
 El formato se basa en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/),
 y este proyecto sigue el versionado semántico donde es aplicable.
 
-## [Examen suspenso] - 2026-09-18
+## [Examen suspenso] - 2026-09-17
 Correcciones exigidas por la guía de cierre del examen suspenso (15/09/2026).
 
 ### Añadido

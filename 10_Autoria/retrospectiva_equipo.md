@@ -29,7 +29,7 @@
 - Convirtió el diccionario de datos a CSV real con separador coma (commit `d7038e4`).
 - Creó la etiqueta anotada `v2.4-suspenso` (15/09), reemplazada luego por la etiqueta de cierre del examen suspenso.
 - El 17 de septiembre por la mañana actualizó `CITATION.cff` a la versión 2.5.0, agregó la línea correspondiente en el CHANGELOG, regeneró el manifiesto raíz dos veces (desde clon limpio la segunda vez), y creó la etiqueta anotada de cierre `v2.5-cierre` (12:07), la versión vigente actual.
-- 
+  
 ### Roselyn Sánchez (gestión del repositorio)
 - Sin commits registrados en el repositorio desde el 08/09. No participó en esta ronda del examen suspenso.
 

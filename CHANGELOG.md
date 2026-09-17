@@ -17,6 +17,7 @@ Correcciones exigidas por la guía de cierre del examen suspenso (15/09/2026).
 - Etiqueta anotada de cierre `v2.4-cierre` creada sobre el commit final del examen suspenso, reemplazando a `v2.4-suspenso` como versión vigente para evaluación (Kamila Calle).
 - Etiqueta anotada de cierre `v2.5-cierre` creada tras una segunda ronda de correcciones (atribuciones del CHANGELOG y la retrospectiva, paquete de datos, capturas de autoría), reemplazando a `v2.4-cierre` como versión vigente para evaluación (Kamila Calle).
 ### Corregido
+- Actualizados los metadatos de `CITATION.cff` a la versión 2.5.0 y fecha de lanzamiento 2026-09-17 (María Escudero).
 - Todas las menciones de "registro previo" eliminadas del ERS, protocolo, OSF y CHANGELOG (Kamila Calle).
 - Recompilados `osf_registration.pdf` y `protocolo.pdf`, que todavía contenían "registro previo" aunque su `.tex` fuente ya no lo tenía (Kamila Calle).
 - Corregidos 60 hashes de commit incorrectos en `10_Autoria/aporte_individual.md` y eliminada una referencia a un documento inexistente (Kamila Calle).

@@ -1,23 +1,37 @@
 archivo,columna,tipo,unidad,rango_admisible,valores_perdidos,procedencia,descripcion
-cobertura_legal.csv,criterio,texto,sin_unidad,C1-C26,,cobertura_legal.csv (06_Experimento),Identificador del criterio de cumplimiento legal
-cobertura_legal.csv,bloque,categorico,sin_unidad,"{LOPDP,BPA,Bioseguridad}",,cobertura_legal.csv,Bloque normativo al que pertenece el criterio
-cobertura_legal.csv,articulo,texto,sin_unidad,referencias normativas (LOPDP/Res183/Res0072),,cobertura_legal.csv,Referencia al artículo o sección de la norma
-cobertura_legal.csv,cubierto_convencional,binario,sin_unidad,"{0,1}",,cobertura_legal.csv,1 si el criterio está cubierto por requisitos elicitados con métodos convencionales; 0 si no
-cobertura_legal.csv,cubierto_legalfirst,binario,sin_unidad,"{0,1}",,cobertura_legal.csv,1 si el criterio está cubierto tras aplicar legal-first; 0 si no
-cobertura_legal.csv,requisitos_cubre,texto,sin_unidad,"identificadores RF/RNF o guion (sin cobertura)",,cobertura_legal.csv,Lista de requisitos que cubren el criterio (RF-XX o RNF-XX)
-cobertura_legal_codificador_b.csv,criterio,texto,sin_unidad,C1-C26,,cobertura_legal_codificador_b.csv,Identificador del criterio (segundo codificador)
-cobertura_legal_codificador_b.csv,bloque,categorico,sin_unidad,"{LOPDP,BPA,Bioseguridad}",,cobertura_legal_codificador_b.csv,Bloque normativo (segundo codificador)
-cobertura_legal_codificador_b.csv,cubierto_convencional,binario,sin_unidad,"{0,1}",,cobertura_legal_codificador_b.csv,Cobertura convencional según segundo codificador
-cobertura_legal_codificador_b.csv,cubierto_legalfirst,binario,sin_unidad,"{0,1}",,cobertura_legal_codificador_b.csv,Cobertura legal-first según segundo codificador
-cobertura_legal_long.csv,criterio,texto,sin_unidad,C1-C26,,cobertura_legal_long.csv,Identificador del criterio (formato largo)
-cobertura_legal_long.csv,bloque,categorico,sin_unidad,"{LOPDP,BPA,Bioseguridad}",,cobertura_legal_long.csv,Bloque normativo
-cobertura_legal_long.csv,articulo,texto,sin_unidad,referencias normativas,,cobertura_legal_long.csv,Referencia normativa
-cobertura_legal_long.csv,requisitos_cubre,texto,sin_unidad,"identificadores RF/RNF o guion (sin cobertura)",,cobertura_legal_long.csv,Requisitos que cubren el criterio
-cobertura_legal_long.csv,metodo,categorico,sin_unidad,"{convencional,legalfirst}",,cobertura_legal_long.csv,Método de elicitación evaluado
-cobertura_legal_long.csv,cubierto,binario,sin_unidad,"{0,1}",,cobertura_legal_long.csv,1 si cubierto; 0 si no
-conjunto_convencional_rf.csv,identificador,texto,sin_unidad,RF-XX o RNF-XX,,conjunto_convencional_rf.csv,Identificador del requisito elicitado convencionalmente
-conjunto_convencional_rf.csv,nombre_requisito,texto,sin_unidad,descripción libre,,conjunto_convencional_rf.csv,Nombre o descripción corta del requisito
-conjunto_convencional_rf.csv,origen,categorico,sin_unidad,"convencional (evidencia de entrevista)",,conjunto_convencional_rf.csv,Fuente de la que se obtuvo el requisito
-conjunto_legalfirst_rf.csv,identificador,texto,sin_unidad,RF-XX,,conjunto_legalfirst_rf.csv,Identificador del requisito derivado de legal-first
-conjunto_legalfirst_rf.csv,nombre_requisito,texto,sin_unidad,descripción libre,,conjunto_legalfirst_rf.csv,Nombre o descripción corta del requisito
-conjunto_legalfirst_rf.csv,origen,categorico,sin_unidad,"legal-first (derivado del texto legal)",,conjunto_legalfirst_rf.csv,Método de derivación (siempre el mismo valor)
+cobertura_legal.csv,criterio,texto,sin_unidad,C1-C26,sin valores perdidos,cobertura_legal.csv (06_Experimento),Identificador del criterio de cumplimiento legal
+cobertura_legal.csv,bloque,categorico,sin_unidad,"{LOPDP,BPA,Bioseguridad}",sin valores perdidos,cobertura_legal.csv,Bloque normativo al que pertenece el criterio
+cobertura_legal.csv,articulo,texto,sin_unidad,referencias normativas (LOPDP/Res183/Res0072),sin valores perdidos,cobertura_legal.csv,Referencia al artículo o sección de la norma
+cobertura_legal.csv,cubierto_convencional,binario,sin_unidad,"{0,1}",sin valores perdidos,cobertura_legal.csv,1 si el criterio está cubierto por requisitos elicitados con métodos convencionales; 0 si no
+cobertura_legal.csv,cubierto_legalfirst,binario,sin_unidad,"{0,1}",sin valores perdidos,cobertura_legal.csv,1 si el criterio está cubierto tras aplicar legal-first; 0 si no
+cobertura_legal.csv,requisitos_cubre,texto,sin_unidad,"identificadores RF/RNF o guion (sin cobertura)",sin valores perdidos,cobertura_legal.csv,Lista de requisitos que cubren el criterio (RF-XX o RNF-XX)
+cobertura_legal_codificador_b.csv,criterio,texto,sin_unidad,C1-C26,sin valores perdidos,cobertura_legal_codificador_b.csv,Identificador del criterio (segundo codificador)
+cobertura_legal_codificador_b.csv,bloque,categorico,sin_unidad,"{LOPDP,BPA,Bioseguridad}",sin valores perdidos,cobertura_legal_codificador_b.csv,Bloque normativo (segundo codificador)
+cobertura_legal_codificador_b.csv,cubierto_convencional,binario,sin_unidad,"{0,1}",sin valores perdidos,cobertura_legal_codificador_b.csv,Cobertura convencional según segundo codificador
+cobertura_legal_codificador_b.csv,cubierto_legalfirst,binario,sin_unidad,"{0,1}",sin valores perdidos,cobertura_legal_codificador_b.csv,Cobertura legal-first según segundo codificador
+cobertura_legal_long.csv,criterio,texto,sin_unidad,C1-C26,sin valores perdidos,cobertura_legal_long.csv,Identificador del criterio (formato largo)
+cobertura_legal_long.csv,bloque,categorico,sin_unidad,"{LOPDP,BPA,Bioseguridad}",sin valores perdidos,cobertura_legal_long.csv,Bloque normativo
+cobertura_legal_long.csv,articulo,texto,sin_unidad,referencias normativas,sin valores perdidos,cobertura_legal_long.csv,Referencia normativa
+cobertura_legal_long.csv,requisitos_cubre,texto,sin_unidad,"identificadores RF/RNF o guion (sin cobertura)",sin valores perdidos,cobertura_legal_long.csv,Requisitos que cubren el criterio
+cobertura_legal_long.csv,metodo,categorico,sin_unidad,"{convencional,legalfirst}",sin valores perdidos,cobertura_legal_long.csv,Método de elicitación evaluado
+cobertura_legal_long.csv,cubierto,binario,sin_unidad,"{0,1}",sin valores perdidos,cobertura_legal_long.csv,1 si cubierto; 0 si no
+conjunto_convencional_rf.csv,identificador,texto,sin_unidad,RF-XX o RNF-XX,sin valores perdidos,conjunto_convencional_rf.csv,Identificador del requisito elicitado convencionalmente
+conjunto_convencional_rf.csv,nombre_requisito,texto,sin_unidad,descripción libre,sin valores perdidos,conjunto_convencional_rf.csv,Nombre o descripción corta del requisito
+conjunto_convencional_rf.csv,origen,categorico,sin_unidad,"convencional (evidencia de entrevista)",sin valores perdidos,conjunto_convencional_rf.csv,Fuente de la que se obtuvo el requisito
+conjunto_legalfirst_rf.csv,identificador,texto,sin_unidad,RF-XX,sin valores perdidos,conjunto_legalfirst_rf.csv,Identificador del requisito derivado de legal-first
+conjunto_legalfirst_rf.csv,nombre_requisito,texto,sin_unidad,descripción libre,sin valores perdidos,conjunto_legalfirst_rf.csv,Nombre o descripción corta del requisito
+conjunto_legalfirst_rf.csv,origen,categorico,sin_unidad,"legal-first (derivado del texto legal)",sin valores perdidos,conjunto_legalfirst_rf.csv,Método de derivación (siempre el mismo valor)
+Matriz_Trazabilidad_v2.xlsx,Ley/Norma,texto,sin_unidad,"referencia normativa o ""Elicitación convencional""",sin valores perdidos,Matriz_Trazabilidad_v2.xlsx (04_Trazabilidad),"Ley o norma que origina el requisito, o ""Elicitación convencional"" si no proviene de una obligación legal"
+Matriz_Trazabilidad_v2.xlsx,Artículo,texto,sin_unidad,artículo específico o guion (no aplica),sin valores perdidos,Matriz_Trazabilidad_v2.xlsx,Artículo de la norma citada; guion si no aplica
+Matriz_Trazabilidad_v2.xlsx,Objetivo,texto,sin_unidad,descripción libre,sin valores perdidos,Matriz_Trazabilidad_v2.xlsx,Objetivo de negocio que persigue el requisito
+Matriz_Trazabilidad_v2.xlsx,Interesado,texto,sin_unidad,lista de roles separados por coma,sin valores perdidos,Matriz_Trazabilidad_v2.xlsx,Interesados o roles relacionados con el requisito
+Matriz_Trazabilidad_v2.xlsx,ID-EV,texto,sin_unidad,EV-XX separados por coma,sin valores perdidos,Matriz_Trazabilidad_v2.xlsx,Evidencias de campo (entrevistas) que sustentan el requisito
+Matriz_Trazabilidad_v2.xlsx,ID-RF/RNF/RD,texto,sin_unidad,"RF-XX, RNF-XX o RD-XX",sin valores perdidos,Matriz_Trazabilidad_v2.xlsx,Identificador del requisito trazado en la fila
+Matriz_Trazabilidad_v2.xlsx,Tipo,categorico,sin_unidad,"{RF,RNF,RD}",sin valores perdidos,Matriz_Trazabilidad_v2.xlsx,Tipo de requisito trazado en la fila
+Matriz_Trazabilidad_v2.xlsx,ID-CU,texto,sin_unidad,CU-XX,sin valores perdidos,Matriz_Trazabilidad_v2.xlsx,Caso de uso al que se traza el requisito
+Matriz_Trazabilidad_v2.xlsx,ID-HU,texto,sin_unidad,HU-XX,sin valores perdidos,Matriz_Trazabilidad_v2.xlsx,Historia de usuario asociada
+Matriz_Trazabilidad_v2.xlsx,ID-CA,texto,sin_unidad,CA-XX.X,sin valores perdidos,Matriz_Trazabilidad_v2.xlsx,Criterio de aceptación asociado
+Matriz_Trazabilidad_v2.xlsx,ID-Componente,texto,sin_unidad,nombre de módulo de software,sin valores perdidos,Matriz_Trazabilidad_v2.xlsx,Componente de software que implementa el requisito
+Matriz_Trazabilidad_v2.xlsx,ID-Maqueta,texto,sin_unidad,MU-XX,sin valores perdidos,Matriz_Trazabilidad_v2.xlsx,Mockup o maqueta que ilustra el requisito
+Matriz_Trazabilidad_v2.xlsx,ID-Caso-Prueba,texto,sin_unidad,CP-RF-XX,sin valores perdidos,Matriz_Trazabilidad_v2.xlsx,Caso de prueba que verifica el requisito
+Matriz_Trazabilidad_v2.xlsx,ID-Flujo,texto,sin_unidad,CU-XX.codigo,sin valores perdidos,Matriz_Trazabilidad_v2.xlsx,Flujo alternativo o de excepción del ERS al que se traza el requisito

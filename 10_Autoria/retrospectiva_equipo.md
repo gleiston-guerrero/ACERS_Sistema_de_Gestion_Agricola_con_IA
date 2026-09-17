@@ -53,5 +53,5 @@
 Cada integrante que trabajó en esta ronda confirma este documento con un commit propio agregando su línea aquí:
 
 - Kamila Annabella Calle Delgado — kcalled — confirmado
-- María del Rosario Escudero Plaza — charito20 — 
+- María del Rosario Escudero Plaza — charito20 — confirmado
 - Jeanpierre Robinson Espinoza — jean200525 — confirmado

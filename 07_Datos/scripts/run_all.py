@@ -20,8 +20,13 @@ RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 def main():
     # Ejecutar el análisis legal-first, que lee datos_crudos/ y escribe resultados/
     analisis = os.path.join(RAIZ, "scripts", "analisis_legalfirst.py")
-    print("[1/1] Ejecutando análisis legal-first (McNemar, descriptivos, figura)...")
+    print("[1/2] Ejecutando análisis legal-first (McNemar, descriptivos, figura)...")
     subprocess.run([sys.executable, analisis], check=True)
+
+    # Ejecutar el cálculo de potencia del test de McNemar
+    potencia = os.path.join(RAIZ, "scripts", "power_calc_mcnemar.py")
+    print("[2/2] Ejecutando cálculo de potencia de McNemar...")
+    subprocess.run([sys.executable, potencia], check=True)
 
     print("\nPipeline completado.")
     resultados = os.path.join(RAIZ, "resultados")

@@ -18,7 +18,9 @@ Correcciones exigidas por la guía de cierre del examen suspenso (15/09/2026).
 - Etiqueta anotada de cierre `v2.5-cierre` creada tras una segunda ronda de correcciones (atribuciones del CHANGELOG y la retrospectiva, paquete de datos, capturas de autoría), reemplazando a `v2.4-cierre` como versión vigente para evaluación (Kamila Calle).
 ### Corregido
 - Todas las menciones de "registro previo" eliminadas del ERS, protocolo, OSF y CHANGELOG (Kamila Calle).
-- `osf_registration.md`: afirmación "orden correcto" corregida (Kamila Calle).
+- Recompilados `osf_registration.pdf` y `protocolo.pdf`, que todavía contenían "registro previo" aunque su `.tex` fuente ya no lo tenía (Kamila Calle).
+- Corregidos 60 hashes de commit incorrectos en `10_Autoria/aporte_individual.md` y eliminada una referencia a un documento inexistente (Kamila Calle).
+- Corregido error de tipeo en el nombre de Kamila Calle Delgado en la tabla de equipo del README.md (Kamila Calle).
 - `checksums.sha256` regenerado tras cambios del ERS (Kamila Calle).
 
 ## [v2.4-suspenso] - 2026-09-15

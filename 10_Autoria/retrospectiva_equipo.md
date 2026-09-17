@@ -13,8 +13,8 @@
 - Agregó la declaración de registro retrospectivo en amenazas a la validez del manuscrito (`manuscrito_final.tex`, commit `9509a1a`).
 - Corrigió la afirmación "orden correcto" en `osf_registration.md` (commit `a2957cd`).
 - Recompiló el PDF del ERS (pasó de 37 a 44 páginas).
-- Reejecutó `python 07_Datos/scripts/run_all.py` sobre un clon limpio: las tablas y figuras regeneradas (chi2=16.056, p<0,001, diferencia de cobertura 0.692, IC95% [0.5, 0.846]) coinciden exactamente con las del ERS y el manuscrito; regeneró `checksums_datos.sha256` y `checksums.sha256` en consecuencia (commits `6428ddb`, `58e9a41`).
-- Creó la etiqueta anotada `v2.3-final` (13/09) y la etiqueta anotada de cierre del examen suspenso.
+- Reejecutó `python 07_Datos/scripts/run_all.py` sobre un clon limpio: las tablas y figuras regeneradas (chi2=16.056, p=0,0001, diferencia de cobertura 0.692, IC95% [0.5, 0.846]) coinciden exactamente con las del ERS y el manuscrito; regeneró `checksums.sha256` en consecuencia (commits `6428ddb`, `58e9a41`).
+- Creó la etiqueta anotada `v2.3-final` (13/09) y la etiqueta anotada `v2.4-cierre` (16/09), reemplazada luego por `v2.5-cierre`.
 - Agregó el campo `url` a `CITATION.cff` y convirtió los enlaces internos del `README.md` a URLs absolutas (16/09).
 - Corrigió los dominios y completó las filas faltantes de `07_Datos/diccionario_datos.csv` (incluyendo la fila por cada columna de `Matriz_Trazabilidad_v2.xlsx` y la columna `valores_perdidos`).
 - Corrigió `07_Datos/scripts/run_all.py` para que ejecute también `power_calc_mcnemar.py`.
@@ -23,12 +23,13 @@
 ### María Escudero (investigación experimental)
 - Corrigió la afirmación "orden correcto" en `osf_registration.md` en una ronda anterior de la Entrega 4.
 - Actualizó la URL canónica del repositorio a `gleiston-guerrero` en `CITATION.cff`, `README.md` y `REPOSITORIO_OFICIAL.md` (commit `7f1467d`, 15/09).
-- Recompiló el PDF del manuscrito con la declaración de registro retrospectivo y el p-value corregido (commit `e6f6981`).
+- Recompiló el PDF del manuscrito con la declaración de registro retrospectivo (commit `e6f6981`); esa versión todavía mostraba `p=0,0001`. El p-value se corrigió después (Jeanpierre Robinson, `5881be4`) y la recompilación final con ese cambio la hizo Kamila Calle (`ac93764`).
 - Regeneró `checksums.sha256` tras actualizar `REPOSITORIO_OFICIAL.md` y corregir un problema de codificación (BOM) del archivo.
 - Generó las notas de campo de las sesiones de member checking (ENTR-11, ENTR-12, ENTR-14).
 - Convirtió el diccionario de datos a CSV real con separador coma (commit `d7038e4`).
 - Creó la etiqueta anotada `v2.4-suspenso` (15/09), reemplazada luego por la etiqueta de cierre del examen suspenso.
-
+- El 17 de septiembre por la mañana actualizó `CITATION.cff` a la versión 2.5.0, agregó la línea correspondiente en el CHANGELOG, regeneró el manifiesto raíz dos veces (desde clon limpio la segunda vez), y creó la etiqueta anotada de cierre `v2.5-cierre` (12:07), la versión vigente actual.
+- 
 ### Roselyn Sánchez (gestión del repositorio)
 - Sin commits registrados en el repositorio desde el 08/09. No participó en esta ronda del examen suspenso.
 

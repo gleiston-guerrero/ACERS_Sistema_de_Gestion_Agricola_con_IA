@@ -44,4 +44,4 @@ Cada integrante confirma esta declaración mediante un commit propio en el repos
 
 ## 5. Versión entregada
 
-La versión entregada para la evaluación del Examen Suspenso (ISR-401) corresponde a la etiqueta anotada **v2.6-cierre**, publicada en este repositorio y alcanzable desde la rama **main**. Esta etiqueta reemplaza a **v2.5-cierre**, **v2.4-cierre**, **v2.4-suspenso**, **v2.3-final** y **v2.0-final**, que se mantienen en el historial como referencia pero no deben usarse para la evaluación del examen suspenso.
+La versión entregada para la evaluación del Examen Suspenso (ISR-401) corresponde a la etiqueta anotada **v2.7-cierre**, publicada en este repositorio y alcanzable desde la rama **main**. Esta etiqueta reemplaza a **v2.6-cierre**, **v2.5-cierre**, **v2.4-cierre**, **v2.4-suspenso**, **v2.3-final** y **v2.0-final**, que se mantienen en el historial como referencia pero no deben usarse para la evaluación del examen suspenso.

@@ -26,6 +26,7 @@ Correcciones exigidas por la guía de cierre del examen suspenso (15/09/2026).
 - `checksums.sha256` regenerado tras cambios del ERS (Kamila Calle).
 - `checksums.sha256` regenerado nuevamente tras las correcciones finales de atribución y CITATION.cff, desde un clon limpio (María Escudero).
 - `checksums.sha256` regenerado nuevamente (commit `2ff2569`) como último paso antes de la etiqueta `v2.6-cierre`, desde un clon limpio (Kamila Calle).
+- Se propone la etiqueta anotada de cierre `v2.7-cierre` (18/09) sobre el commit final, tras declarar su vigencia en README.md y REPOSITORIO_OFICIAL.md y actualizar CITATION.cff a la versión 2.7.0.
 
 ## [v2.4-suspenso] - 2026-09-15
 Etiqueta de línea base intermedia: `v2.4-suspenso` (María Escudero), reemplazada por `v2.4-cierre` al cerrar el examen suspenso.

@@ -25,7 +25,7 @@ Correcciones exigidas por la guía de cierre del examen suspenso (15/09/2026).
 - Corregido error de tipeo en el nombre de Kamila Calle Delgado en la tabla de equipo del README.md (Kamila Calle).
 - `checksums.sha256` regenerado tras cambios del ERS (Kamila Calle).
 - `checksums.sha256` regenerado nuevamente tras las correcciones finales de atribución y CITATION.cff, desde un clon limpio (María Escudero).
-- `checksums.sha256` regenerado nuevamente como último paso antes de la etiqueta `v2.6-cierre`, desde un clon limpio (Kamila Calle).
+- `checksums.sha256` regenerado nuevamente (commit `2ff2569`) como último paso antes de la etiqueta `v2.6-cierre`, desde un clon limpio (Kamila Calle).
 
 ## [v2.4-suspenso] - 2026-09-15
 Etiqueta de línea base intermedia: `v2.4-suspenso` (María Escudero), reemplazada por `v2.4-cierre` al cerrar el examen suspenso.

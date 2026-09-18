@@ -16,6 +16,7 @@ Correcciones exigidas por la guía de cierre del examen suspenso (15/09/2026).
 - Manuscrito recompilado con la declaración de registro retrospectivo (13 páginas, 408745 bytes) (María Escudero).
 - Etiqueta anotada de cierre `v2.4-cierre` creada sobre el commit final del examen suspenso, reemplazando a `v2.4-suspenso` como versión vigente para evaluación (Kamila Calle).
 - Etiqueta anotada de cierre `v2.5-cierre` creada tras una segunda ronda de correcciones (atribuciones del CHANGELOG y la retrospectiva, paquete de datos, capturas de autoría), reemplazando a `v2.4-cierre` como versión vigente para evaluación (María Escudero).
+- Etiqueta anotada de cierre `v2.6-cierre` creada tras corregir la atribución de `v2.5-cierre` en el CHANGELOG y la retrospectiva, reemplazando a `v2.5-cierre` como versión vigente para evaluación (Kamila Calle).
 ### Corregido
 - Actualizados los metadatos de `CITATION.cff` a la versión 2.5.0 y fecha de lanzamiento 2026-09-17 (María Escudero).
 - Todas las menciones de "registro previo" eliminadas del ERS, protocolo, OSF y CHANGELOG (Kamila Calle).
@@ -24,6 +25,7 @@ Correcciones exigidas por la guía de cierre del examen suspenso (15/09/2026).
 - Corregido error de tipeo en el nombre de Kamila Calle Delgado en la tabla de equipo del README.md (Kamila Calle).
 - `checksums.sha256` regenerado tras cambios del ERS (Kamila Calle).
 - `checksums.sha256` regenerado nuevamente tras las correcciones finales de atribución y CITATION.cff, desde un clon limpio (María Escudero).
+- `checksums.sha256` regenerado nuevamente como último paso antes de la etiqueta `v2.6-cierre`, desde un clon limpio (Kamila Calle).
 
 ## [v2.4-suspenso] - 2026-09-15
 Etiqueta de línea base intermedia: `v2.4-suspenso` (María Escudero), reemplazada por `v2.4-cierre` al cerrar el examen suspenso.

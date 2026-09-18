@@ -20,6 +20,7 @@
 - Corrigió `07_Datos/scripts/run_all.py` para que ejecute también `power_calc_mcnemar.py`.
 - Corrigió las atribuciones falsas y la fecha de la entrada del examen suspenso en `CHANGELOG.md`, y agregó la entrada faltante de la etiqueta `v2.4-suspenso`.
 - El 17 de septiembre por la tarde corrigió las dos atribuciones falsas de la retrospectiva (etiqueta de cierre y valor p, commit `10e9ff1`) y la atribución de `v2.5-cierre` en el `CHANGELOG.md` (commit `6cd083d`); corrigió el valor p obsoleto en el comentario de `manuscrito_final.tex` (commit `0302bab`); eliminó una línea vacía residual en esta retrospectiva (commit `2506dc2`); actualizó `CITATION.cff` a la versión 2.6.0 (commit `7fdcd08`); y actualizó la etiqueta vigente declarada en `README.md` (commit `5dd144c`) y en `REPOSITORIO_OFICIAL.md` (commit `85e7e32`).
+- Regeneró `checksums.sha256` (commit `2ff2569`) y creó la etiqueta anotada de cierre `v2.6-cierre` (18:26).
 
 ### María Escudero (investigación experimental)
 - Corrigió la afirmación "orden correcto" en `osf_registration.md` en una ronda anterior de la Entrega 4.
